@@ -57,12 +57,12 @@ form{
     border-radius: 8px;
 }
 
-.filter-field--open .option__icon--down{
-    display: block;
-}
-
 .filter-field--open .option__icon--up{
     display: none;
+}
+
+.filter-field--open .option__icon--down{
+    display: block;
 }
 
 .filter-field--open .options{

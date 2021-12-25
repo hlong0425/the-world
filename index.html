@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/query.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Where in the world?</h1>
+        </div>
+    </header>
+
+    <section class="section-main">
+        <div class="container main-container">
+            <div class="search-field">
+                <form action="">
+                    <button class="btn--form">
+                        <i class="icon--search fas fa-search"></i>
+                    </button>
+                    <input class="form-input" type="text" placeholder="Search for a country">
+                </form>
+            </div>
+
+            <div class="filter-field ">
+                <div class="option__holder__box">
+                    <div class="option__holder">Filter by Region</div>
+                    <div class="option__icon--down">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+
+                    <div class="option__icon--up">
+                        <i class="fas fa-chevron-up"></i>
+                    </div>
+                </div>
+                <div class="options">
+                    <div class="option" data-region="Africa">Afica</div>
+                    <div class="option" data-region="Americas">America</div>
+                    <div class="option" data-region="Asia">Asia</div>
+                    <div class="option" data-region="Europe">Euro</div>
+                    <div class="option" data-region="Oceania">Oceania</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="cards">
+                <!-- <div class="card">
+                    <div class="card__img">
+                        <img src="https://flagcdn.com/w320/ai.png" alt="">
+                    </div>
+                    <div class="card__info">
+                        <h3 class="card__heading">
+                            <span class="country--name">
+                                Germany
+                            </span>
+                        </h3>
+                        <p class="card__detail">Population: <span
+                                class="country__data country__data--population">81.000.000</span></p>
+                        <p class="card__detail">Region: <span class="country__data country__data--region">Europe</span>
+                        </p>
+                        <p class="card__detail">Capital: <span
+                                class="country__data country__data--capital">Berlin</span></p>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/56a0e03eb7.js" crossorigin="anonymous"></script>
+    <script type="module" src="js/script.js"></script>
+</body>
+
+</html>

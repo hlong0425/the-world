@@ -1,0 +1,110 @@
+.btn--back{
+    padding: 0.6rem 3.2rem; 
+    background-color: inherit;
+    box-shadow: 0px 0px 1px 3px #eeebeb;
+    border-radius: 4px;
+    border: none;
+    margin: 3.2rem 0;
+}
+
+.detail-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flag{
+    width: 80rem;
+}
+.flag img{
+    width: 100%;
+}
+
+.infomation-name{
+    font-size: 2.4rem;
+    font-weight: var(--extraBold-font-weight);
+    margin-bottom: 3.2rem;
+}
+
+
+.infomation-detail{
+    display: flex;
+    gap: 9.6rem;
+}
+
+.infomaton__detail__title{
+    font-size: 1.4rem;
+    font-weight: var(--semiBold-font-weight);
+    margin-bottom: 0.8rem;
+}
+
+.borders{
+    margin-top: 6.4rem;
+}
+
+.tags{
+    display: grid;
+    grid-template-columns: repeat(3,max-content);
+    justify-items: start;
+    column-gap: 1.2rem;
+    row-gap: 1.2rem;
+}
+.tag{
+    padding: 0.2rem 2.4rem; 
+    box-shadow: 0px 0px 2px 2px #eeebeb;
+    display: inline-block;
+    font-weight: 300;
+    border-radius: 2px;
+}
+
+
+/* -------------------------- */
+
+/* Bellow 1300 */
+@media(max-width: 81.25em){
+    .flag {
+        width: 60rem;
+    }
+    .container{
+        padding: 0 4.2rem;
+    }
+
+    .detail-box{
+        flex-direction: column;
+        gap: 3.2rem;
+        margin-bottom: 3.2rem;
+    }
+}
+
+/* Bellow 650 */
+@media(max-width: 40.625em){
+    .flag {
+        width: 100%;
+    }
+}
+
+
+/* Bellow 550 */
+@media(max-width: 34.375em){
+    .container{
+        padding: 0 1.2rem;
+    }
+
+    .flag {
+        width: 100%;
+    }
+
+    .infomation-detail{
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+
+    .detail-box{
+        align-items: flex-start;
+    }
+
+    .tags{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+

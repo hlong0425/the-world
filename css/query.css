@@ -1,0 +1,75 @@
+/* Bellow 1300 */
+@media(max-width: 81.25em){
+    .container{
+        padding: 4.2rem;
+    }
+
+    .cards{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+   
+    .card__img{
+        height: 22rem;
+    }
+}
+
+/* bellow 1200 */
+@media(max-width: 75em){
+    .container{
+        padding: 4.2rem;
+    }
+
+    .cards{
+        grid-template-columns: repeat(2,30rem);
+        justify-content: center;
+    }
+   
+    .card__img{
+        height: 20rem;
+    }
+}
+
+
+/* bellow 750 */
+@media(max-width: 47em){
+    .container{
+        padding: 4.2rem;
+    }
+
+    .cards{
+        grid-template-columns: repeat(1, 40rem);
+        justify-content: center;
+    }
+   
+    .card__img{
+        height: 28rem;
+    }
+
+    .main-container{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+/* Bellow 550 */
+@media(max-width: 34.375em){
+    html{
+        font-size: 50.78%;
+    }
+
+    .form-input {
+        width: 30rem;
+        padding: 0.8rem;
+    }
+
+    .cards{
+        grid-template-columns: repeat(1, 35rem);
+      
+        
+    }
+}
+
+
+
+
